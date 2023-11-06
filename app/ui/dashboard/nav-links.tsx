@@ -56,8 +56,3 @@ const {
 } = await fetchCardData();
 
 
-const data = await Promise.all([
-  invoiceCountPromise,
-  customerCountPromise,
-  invoiceStatusPromise,
-]);
